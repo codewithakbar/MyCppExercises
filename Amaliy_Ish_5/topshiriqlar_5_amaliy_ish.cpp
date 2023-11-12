@@ -275,13 +275,13 @@ void BirinchiTopshiriqniYuklash() {
 
 	do {
 
-		cout << "Endi misol raqamini kiriting: ";
-		cin >> MISOL_RAQAMI;
+        cout << "Endi misol raqamini kiriting: ";
+        cin >> MISOL_RAQAMI;
 
-		switch (MISOL_RAQAMI) {
-			case 1:
-				birinchi.Misol1();
-				break;
+        switch (MISOL_RAQAMI) {
+            case 1:
+                birinchi.Misol1();
+                break;
             case 2:
                 birinchi.Misol2();
                 break;
