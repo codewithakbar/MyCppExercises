@@ -128,48 +128,48 @@ public:
 
 	void Misol1() {
 
-		cout << "Q sonini P darajasini topuvchi funksiya. " << endl;
+        cout << "Q sonini P darajasini topuvchi funksiya. " << endl;
 
-		int son, daraja;
-	    cout << "Iltimos, sonni kiriting: ";
-	    cin >> son;
-	    cout << "Iltimos, darajani kiriting: ";
-		cin >> daraja;
+        int son, daraja;
+        cout << "Iltimos, sonni kiriting: ";
+        cin >> son;
+        cout << "Iltimos, darajani kiriting: ";
+        cin >> daraja;
 
-	    double natija = darajaTop(son, daraja);
+        double natija = darajaTop(son, daraja);
 
-	    cout << son << "ning " << daraja << " darajasi = " << natija << endl;
+        cout << son << "ning " << daraja << " darajasi = " << natija << endl;
 
 	}
 
 	void Misol2() {
 
-		int P, L;
+        int P, L;
 
-	    cout << "Iltimos, P sonini kiriting: ";
-	    cin >> P;
-	    cout << "Iltimos, L sonini kiriting: ";
-	    cin >> L;
+        cout << "Iltimos, P sonini kiriting: ";
+        cin >> P;
+        cout << "Iltimos, L sonini kiriting: ";
+        cin >> L;
 
-	    double natija = qoshuvchi(P, L);
+        double natija = qoshuvchi(P, L);
 
-	    cout << "Natija: " << natija << endl;
+        cout << "Natija: " << natija << endl;
 
 	}
 
 
     void Misol3() {
 
-    	int katet1, katet2;
+        int katet1, katet2;
 
-	    cout << "Iltimos, birinchi katetni kiriting: ";
-	    cin >> katet1;
-	    cout << "Iltimos, ikkinchi katetni kiriting: ";
-	    cin >> katet2;
+        cout << "Iltimos, birinchi katetni kiriting: ";
+        cin >> katet1;
+        cout << "Iltimos, ikkinchi katetni kiriting: ";
+        cin >> katet2;
 
-	    double gipotenuza = gipotenuzaTop(katet1, katet2);
+        double gipotenuza = gipotenuzaTop(katet1, katet2);
 
-	    cout << "Gipotenuza: " << gipotenuza << endl;
+        cout << "Gipotenuza: " << gipotenuza << endl;
 
     }
 
@@ -191,31 +191,31 @@ public:
 
     void Misol5() {
 
-    	int son;
-	    cout << "Iltimos, uch xonali son kiriting: ";
-	    cin >> son;
+        int son;
+        cout << "Iltimos, uch xonali son kiriting: ";
+        cin >> son;
 
-	    int ochiriladiganRaqam = ortaDelete(son);
+        int ochiriladiganRaqam = ortaDelete(son);
 
-	    std::cout << "Natija: " << ochiriladiganRaqam << endl;
+        std::cout << "Natija: " << ochiriladiganRaqam << endl;
     }
 
 
     void Misol6() {
 
-    	cout << "Berilgan N soni ikkita tub sonni yig‘indisi bo‘lishini tekshiruvchi funksiya tuzing."<< endl;
+        cout << "Berilgan N soni ikkita tub sonni yig‘indisi bo‘lishini tekshiruvchi funksiya tuzing."<< endl;
 
-		int N;
-		cout << "Iltimos, N son kiriting: ";
-		cin >> N;
+        int N;
+        cout << "Iltimos, N son kiriting: ";
+        cin >> N;
 
-		bool natija = yigindisiTubSon(N);
+        bool natija = yigindisiTubSon(N);
 
-		if (natija) {
-		    cout << N << " soni ikkita tub sonning yig'indisi" << endl;
-		} else {
-		    cout << N << " soni ikkita tub sonning yig'indisi emas" << endl;
-		}
+        if (natija) {
+            cout << N << " soni ikkita tub sonning yig'indisi" << endl;
+        } else {
+            cout << N << " soni ikkita tub sonning yig'indisi emas" << endl;
+        }
     }
 
     void Misol7() {
