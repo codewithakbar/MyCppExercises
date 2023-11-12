@@ -324,14 +324,14 @@ int main() {
 
 	do {
 
-		cout << "Topshiriq raqamini kiriting!: ";
-		cin >> TOPSHIRIQ_RAQAMI;
+        cout << "Topshiriq raqamini kiriting!: ";
+        cin >> TOPSHIRIQ_RAQAMI;
 
-		switch(TOPSHIRIQ_RAQAMI) {
-			case 1:
-				BirinchiTopshiriqniYuklash();
-				break;
-		}
+        switch(TOPSHIRIQ_RAQAMI) {
+            case 1:
+                BirinchiTopshiriqniYuklash();
+                break;
+        }
 
 		cout << "yana topshiriq ishlanadimi? (h/y): ";
 		cin >> SAV;
