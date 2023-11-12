@@ -220,22 +220,23 @@ public:
 
     void Misol7() {
 
-		Nuqta A, B, C;
+        Nuqta A, B, C;
 
-		cout << "Iltimos, A nuqtasini kiriting (x y): ";
-		cin >> A.x >> A.y;
-		cout << "Iltimos, B nuqtasini kiriting (x y): ";
-		cin >> B.x >> B.y;
-		cout << "Iltimos, C nuqtasini kiriting (x y): ";
-		cin >> C.x >> C.y;
+        cout << "Iltimos, A nuqtasini kiriting (x y): ";
+        cin >> A.x >> A.y;
+        cout << "Iltimos, B nuqtasini kiriting (x y): ";
+        cin >> B.x >> B.y;
+        cout << "Iltimos, C nuqtasini kiriting (x y): ";
+        cin >> C.x >> C.y;
 
-		bool natija = togriChiziqdaYotmaydi(A, B, C);
+        bool natija = togriChiziqdaYotmaydi(A, B, C);
 
-		if (natija) {
-		    cout << "Uchta nuqta bir to'g'ri chiziqda yotmaydi." << endl;
-		} else {
-		    cout << "Uchta nuqta bir to'g'ri chiziqda yotadi yoki chiziq to'g'ri emas." << endl;
-		}
+        if (natija) {
+            cout << "Uchta nuqta bir to'g'ri chiziqda yotmaydi." << endl;
+        } else {
+            cout << "Uchta nuqta bir to'g'ri chiziqda yotadi yoki chiziq to'g'ri emas." << endl;
+        }
+
     }
 
 
